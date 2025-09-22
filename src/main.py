@@ -57,25 +57,25 @@ def main(page: ft.Page):
             "imagen": "src/assets/meowl.png"
         },
         {
-            "titulo": "Pintrua7",
-            "autor": "Autor7",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "Cuarta transformación",
+            "autor": "eldeforma",
+            "año": "2019",
+            "descripcion": "La transformación Super Saiyajin 4 de nuestro señor salvador AMLO",
+            "imagen": "src/assets/cuarta.png"
         },
         {
-            "titulo": "Pintrua8",
-            "autor": "Autor8",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "Factory",
+            "autor": "Animan Studios",
+            "año": "2021",
+            "descripcion": "Get it together - Mustard on the beat, hoe",
+            "imagen": "src/assets/animan.png"
         },
         {
-            "titulo": "Pintrua9",
-            "autor": "Autor9",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "Recortalte",
+            "autor": "Gentleman's barber shop",
+            "año": "2023",
+            "descripcion": "El chico quiere cambiar su estilo punk, por un ponkpadu",
+            "imagen": "src/assets/enlaferia.png"
         },
     ]
     
@@ -83,7 +83,7 @@ def main(page: ft.Page):
 
     contenedor=ft.Container(
         content=ft.Column([]),
-        width=500,
+        width=300,
         height=500,
         bgcolor=ft.Colors.BLACK,
         alignment=ft.alignment.center,
