@@ -15,46 +15,46 @@ def main(page: ft.Page):
             "imagen": "src/assets/EL LOGICAL.png"
         },
         {
-            "titulo": "Ojitos Wolsom"
+            "titulo": "Ojitos Wolsom",
             "autor": "Anónimo",
             "año": "2022",
             "descripcion": "Pintura que describe el miedo que puede sentir una persona sensible",
             "imagen": "src/assets/ojitos wolsom.png"
         },
         {
-            "titulo": "Pintrua3",
-            "autor": "Autor3",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "Los pollos",
+            "autor": "(Desconocido en Facebook)",
+            "año": "2024",
+            "descripcion": "Yo viendo como giran los pollos",
+            "imagen": "src/assets/lospoyos.png"
         },
         {
-            "titulo": "Pintrua4",
-            "autor": "Autor4",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "El de las recargas",
+            "autor": "El.perrocalentero",
+            "año": "2022",
+            "descripcion": "Will Smith como el de las recargas",
+            "imagen": "src/assets/recargas.png"
         },
         {
-            "titulo": "Pintrua45",
-            "autor": "Autor45",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "Whatsapp",
+            "autor": "Scorpion87",
+            "año": "2007",
+            "descripcion": "Photoshop de un carro de whatsapp",
+            "imagen": "src/assets/wasap.png"
         },
         {
-            "titulo": "Pintrua5",
-            "autor": "Autor5",
-            "año": "año sin las comillas",
+            "titulo": "Frutiger Gordon",
+            "autor": "Frutiger Aereo: Aesthetics+",
+            "año": "2025",
             "descripcion": "descripcion",
-            "imagen": ""
+            "imagen": "src/assets/gordon.png"
         },
         {
-            "titulo": "Pintrua6",
-            "autor": "Autor6",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen": ""
+            "titulo": "Meowl",
+            "autor": "zhumaokele",
+            "año": "2013",
+            "descripcion": "Photoshop de un búho con cabeza de gato",
+            "imagen": "src/assets/meowl.png"
         },
         {
             "titulo": "Pintrua7",
