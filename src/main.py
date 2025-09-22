@@ -3,88 +3,89 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title="El arte va en la artería"
-    page.bgcolor=ft.Colors.BLUE_50
+    page.theme_mode = ft.ThemeMode.DARK
+    page.bgcolor=ft.Colors.BLACK
     
     pinturas = [
         {
-            "titulo": "Pintrua1",
-            "autor": "Autor1",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen":
+            "titulo": "El Lógico",
+            "autor": "TheLogicalDuck",
+            "año": "2025",
+            "descripcion": "La foto de perfil del pato logístico",
+            "imagen": "src/assets/EL LOGICAL.png"
         },
         {
-            "titulo": "Pintrua2",
-            "autor": "Autor2",
-            "año": "año sin las comillas",
-            "descripcion": "descripcion",
-            "imagen":
+            "titulo": "Ojitos Wolsom"
+            "autor": "Anónimo",
+            "año": "2022",
+            "descripcion": "Pintura que describe el miedo que puede sentir una persona sensible",
+            "imagen": "src/assets/ojitos wolsom.png"
         },
         {
             "titulo": "Pintrua3",
             "autor": "Autor3",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua4",
             "autor": "Autor4",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua45",
             "autor": "Autor45",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua5",
             "autor": "Autor5",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua6",
             "autor": "Autor6",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua7",
             "autor": "Autor7",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua8",
             "autor": "Autor8",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
         {
             "titulo": "Pintrua9",
             "autor": "Autor9",
             "año": "año sin las comillas",
             "descripcion": "descripcion",
-            "imagen":
+            "imagen": ""
         },
     ]
     
     indice_actual=[0]
 
-    contenedor=ft.Containter(
+    contenedor=ft.Container(
         content=ft.Column([]),
-        width=400,
+        width=500,
         height=500,
-        bgcolor=ft.Colors.BLUE_400,
+        bgcolor=ft.Colors.BLACK,
         alignment=ft.alignment.center,
         padding=20
     )
@@ -103,7 +104,7 @@ def main(page: ft.Page):
         ],alignment=ft.MainAxisAlignment.CENTER)
     
         if indice_actual[0]==len(pinturas)-1:
-        boton_siguiente.text="Volver al inicio"
+            boton_siguiente.text="Volver al inicio"
         else:
             boton_siguiente.text="Siguiente pintura"
         page.update()
