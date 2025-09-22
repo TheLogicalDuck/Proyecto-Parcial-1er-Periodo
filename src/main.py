@@ -98,9 +98,9 @@ def main(page: ft.Page):
         contenedor.content=ft.Column([
             ft.Image(src=pintura["imagen"], width=300, height=300, fit=ft.ImageFit.CONTAIN),
             ft.Text(pintura["titulo"],size=20,weight=ft.FontWeight.BOLD),
-            ft.Text(f"Autor: {pintura['autor']}",size=16),
-            ft.Text(f"Año: {pintura['año']}",size=16),
-            ft.Text(pintura["descripcion"],size=14,italic=True)
+            ft.Text(f"Autor: {pintura['autor']}",size=20),
+            ft.Text(f"Año: {pintura['año']}",size=18),
+            ft.Text(pintura["descripcion"],size=16,italic=True)
         ],alignment=ft.MainAxisAlignment.CENTER)
     
         if indice_actual[0]==len(pinturas)-1:
