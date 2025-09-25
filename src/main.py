@@ -11,7 +11,7 @@ def main(page: ft.Page):
         {"titulo": "Los pollos","autor": "(Desconocido en Facebook)","año": "2024","descripcion": "Yo viendo como giran los pollos","imagen": "src/assets/lospoyos.png"},
         {"titulo": "El de las recargas","autor": "El.perrocalentero","año": "2022","descripcion": "Will Smith como el de las recargas","imagen": "src/assets/recargas.png"},
         {"titulo": "Whatsapp","autor": "Scorpion87","año": "2007","descripcion": "Photoshop de un carro de whatsapp","imagen": "src/assets/wasap.png"},
-        {"titulo": "Frutiger Gordon","autor": "Frutiger Aereo: Aesthetics+","año": "2025","descripcion": "descripcion","imagen": "src/assets/gordon.png"},
+        {"titulo": "Frutiger Gordon","autor": "Frutiger Aereo: Aesthetics+","año": "2025","descripcion": "El retrofuturista de el Gordon hombre libre","imagen": "src/assets/gordon.png"},
         {"titulo": "Meowl","autor": "zhumaokele","año": "2013","descripcion": "Photoshop de un búho con cabeza de gato","imagen": "src/assets/meowl.png"},
         {"titulo": "Cuarta transformación","autor": "eldeforma","año": "2019","descripcion": "La transformación Super Saiyajin 4 de nuestro señor salvador AMLO","imagen": "src/assets/cuarta.png"},
         {"titulo": "Factory","autor": "Animan Studios","año": "2021","descripcion": "Get it together - Mustard on the beat, hoe","imagen": "src/assets/animan.png"},
